@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: Roboto, Arial, Helvetica;
+}
+form {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-ctn {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  gap: 1vw;
+}
+input {
+  width: 10vw;
+  padding: 2px;
+}
+label {
+  text-align: right;
+}
+
+#submit-ctn {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  gap: 2vh;
+}
+
+button {
+  width: 10vw;
+  height: 4vh;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  background-color: darkgray;
+  color: black;
+}
+
+#results {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vh;
+  gap: 2vh;
+}
+
+#pi-result {
+  font-weight: 600;
+  font-size: 1.2vw;
+  word-break: break-word;
+}
+#init-result,
+#final-result,
+#time-result,
+#diff-result {
+  font-weight: 600;
+  font-size: 1.2vw;
+}
